@@ -125,14 +125,14 @@ export const HUD: React.FC = () => {
                     <div className="relative w-full bg-gray-900">
                         {/* Custom Banner Background */}
                         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-purple-900 via-[#0a0a1a] to-black"></div>
-                        
+
                         {/* Stars/Space Effect */}
                         <div className="absolute inset-0 opacity-50" style={{ backgroundImage: 'radial-gradient(white 1px, transparent 1px)', backgroundSize: '30px 30px' }}></div>
 
                         {/* Main Title */}
                         <div className="relative z-10 flex flex-col items-center justify-center pt-16 pb-32 px-4">
                             <h1 className="text-5xl md:text-6xl font-black text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 drop-shadow-[0_0_25px_rgba(0,255,255,0.6)] font-cyber tracking-wider text-center leading-tight">
-                                GUNMAN<br/>RUNNER
+                                GUNMAN<br />RUNNER
                             </h1>
                             <div className="mt-4 text-cyan-300 font-cyber tracking-[0.3em] text-xs md:text-sm border-t border-cyan-500/30 pt-2 px-8 drop-shadow-[0_0_10px_rgba(0,255,255,0.8)]">
                                 ANSARI SOUAIB
@@ -150,7 +150,7 @@ export const HUD: React.FC = () => {
                             >
                                 <div className="absolute inset-0 bg-gradient-to-r from-cyan-500/40 via-purple-500/40 to-pink-500/40 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700"></div>
                                 <span className="relative z-10 tracking-widest flex items-center justify-center">
-                                    INITIALIZE RUN <Play className="ml-2 w-5 h-5 fill-white" />
+                                    BHAGO <Play className="ml-2 w-5 h-5 fill-white" />
                                 </span>
                             </button>
 
