@@ -123,11 +123,21 @@ export const HUD: React.FC = () => {
 
                     {/* Image Container - Auto height to fit full image without cropping */}
                     <div className="relative w-full bg-gray-900">
-                        <img
-                            src="https://www.gstatic.com/aistudio/starter-apps/gemini_runner/gemini_runner.png"
-                            alt="Gemini Runner Cover"
-                            className="w-full h-auto block"
-                        />
+                        {/* Custom Banner Background */}
+                        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-purple-900 via-[#0a0a1a] to-black"></div>
+                        
+                        {/* Stars/Space Effect */}
+                        <div className="absolute inset-0 opacity-50" style={{ backgroundImage: 'radial-gradient(white 1px, transparent 1px)', backgroundSize: '30px 30px' }}></div>
+
+                        {/* Main Title */}
+                        <div className="relative z-10 flex flex-col items-center justify-center pt-16 pb-32 px-4">
+                            <h1 className="text-5xl md:text-6xl font-black text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 drop-shadow-[0_0_25px_rgba(0,255,255,0.6)] font-cyber tracking-wider text-center leading-tight">
+                                GUNMAN<br/>RUNNER
+                            </h1>
+                            <div className="mt-4 text-cyan-300 font-cyber tracking-[0.3em] text-xs md:text-sm border-t border-cyan-500/30 pt-2 px-8 drop-shadow-[0_0_10px_rgba(0,255,255,0.8)]">
+                                ANSARI SOUAIB
+                            </div>
+                        </div>
 
                         {/* Gradient Overlay for text readability */}
                         <div className="absolute inset-0 bg-gradient-to-t from-[#050011] via-black/30 to-transparent"></div>
